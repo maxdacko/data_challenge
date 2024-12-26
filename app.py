@@ -1,7 +1,7 @@
 import subprocess
 
 def ejecutar_scripts():
-    scripts = ["scripts/src/00_data_download.py", "scripts/src/01_data_analysis.py", "scripts/src/02_data_results.py"]
+    scripts = ["src/00_data_download.py", "src/01_data_analysis.py", "scripts/src/02_data_results.py"]
     
     for script in scripts:
         print(f"Executing {script}...")
