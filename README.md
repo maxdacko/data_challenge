@@ -72,4 +72,4 @@ If you prefer to run the project locally without Docker, follow these steps:
 5. Run the desired script: python 01_data_analysis.py
 
 ## Results 
-The output and results will be available in the result folder.
+The output and results are available in the result folder, in a PDF format.
