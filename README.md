@@ -2,31 +2,6 @@
 
 This project is a Data Engineering challenge focused on identifying discrepancies in Allowance Payment Days. It processes allowance data, payment schedules, and event information to pinpoint instances where payments might not align with expected timelines.
 
-## Project Structure
-
-The project is organized as follows:
-
-├── assets/                 # Static assets (if any)
-├── backup/                 # Backup data (if applicable)
-├── data/
-│   ├── input/             # Input data files
-│   │   ├── allowance_backend_table.csv    # Allowance data
-│   │   ├── allowance_events.json        # Allowance event data
-│   │   └── payment_schedule_backend_table.csv # Payment schedule data
-│   └── output/            # Output data and results
-├── notebooks/             # Jupyter notebooks for exploration (if any)
-├── results/              # Final results and reports
-├── src/
-│   ├── helpers/           # Helper functions and modules
-│   │   ├── 00_data_download.py # Script for downloading or generating data
-│   │   ├── 01_data_analysis.py # Main analysis script
-│   │   └── 02_data_results.py # Script for generating results and reports
-├── .DS_Store              # macOS metadata file (can be ignored)
-├── Dockerfile              # Docker configuration for containerization
-├── README.md               # This README file
-├── app.py                  # Main application entry point (if applicable)
-└── requirements.txt        # Python dependencies
-
 ## Data Files
 
 *   `data/input/allowance_backend_table.csv`: Contains detailed information about allowances, including allowance IDs, amounts, and other relevant details. This files automatically downloads when yoy run the app.
